@@ -12,4 +12,10 @@ Telefone: <input type="text" name="telefone"><br>
 
 
 </form>
+<?php
 
+if (isset($_GET["msg"])) {
+
+echo "<h1>". $_GET["msg"]. "</h1>";
+}
+?>
